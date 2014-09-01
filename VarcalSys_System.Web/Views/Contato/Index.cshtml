@@ -1,0 +1,74 @@
+﻿@model IEnumerable<VarcalSys_System.Domain.Contato>
+@{
+    ViewBag.Title = "Mensagens";
+    ViewBag.SelectedMenu = "mensagens";
+}
+
+
+<!-- Start Content Wrapper -->
+<div class="content_wrapper">
+    
+    <div class="PageTitle">
+        <h1 style="margin-top: 5px;">@ViewBag.Title</h1>
+    </div>
+
+   
+
+    <!-- Content Area -->
+    <div id="content">
+        
+       @* <div class="button-link-list">
+            <a href="@Url.Action("Create", "Contato")">Adicionar</a>
+        </div>*@
+        
+         
+       @* 
+        @Html.Messages(TempData["info"] as string, "info")
+        @Html.Messages(TempData["errors"] as string, "errors")*@
+
+        <table class="table-hover table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                     <th>
+                        @Html.DisplayNameFor(model => model.Assunto)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="width: 60px;">
+                            <a href="@Url.Action("Details", "Contato", new { id = item.Id })" title="Editar" >&nbsp;<img src="@Url.Content("~/Images/icons/details.png")"/>
+                            </a>
+                        </td>
+                        <td>@Html.DisplayFor(model => item.Nome)</td>
+                        <td>@Html.DisplayFor(model => item.Email)</td>
+                        <td>@Html.DisplayFor(model => item.Assunto)</td>
+                        <td style="width: 70px;">
+                            @Ajax.ActionLink("Excluir", "Delete", new { id = item.Id },
+                                             new AjaxOptions { HttpMethod = "POST", Confirm = "Confirma a exclusão do item?", OnSuccess = "location.reload();", OnFailure = "failedAjax" },
+                                             new { @class = "icon icon-delete" })
+
+                        </td>
+                    </tr>
+                }
+            </tbody>          
+        </table>
+    </div>
+</div>
+<script type="text/javascript">
+
+    function failedAjax(xhr) {
+        var data = xhr.responseJSON;
+        alert(data.message);
+    }
+</script>

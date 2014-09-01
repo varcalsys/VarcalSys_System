@@ -1,0 +1,15 @@
+Connector/Net 5.1.5 Release Notes
+------------------------------------
+
+Welcome to the release notes for Connector/Net 5.1.5
+
+This is a fairly minor change however we encourage you to review the changelog 
+to see the specific changes.
+
+Treat Tiny As Boolean
+---------------------
+The only significant change to existing behavior is the addition of the 
+'Treat Tiny As Boolean' connection string option.  By default, this setting is
+true which means that any TINYINT(1) columns it sees will be treated as boolean.
+However, if you don't want this behavior just set this setting to false and those
+columns will be returned as integers

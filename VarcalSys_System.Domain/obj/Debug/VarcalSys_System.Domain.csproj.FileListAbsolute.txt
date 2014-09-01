@@ -1,0 +1,15 @@
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.pdb
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.pdb
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.csprojResolveAssemblyReference.cache
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.csprojResolveAssemblyReference.cache
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\MySql.Data.dll

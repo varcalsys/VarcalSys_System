@@ -1,0 +1,12 @@
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Util\bin\Debug\VarcalSys_System.Util.dll.config
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Util\bin\Debug\VarcalSys_System.Util.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Util\bin\Debug\VarcalSys_System.Util.pdb
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Util\obj\Debug\VarcalSys_System.Util.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Util\obj\Debug\VarcalSys_System.Util.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Util\bin\Debug\VarcalSys_System.Util.dll.config
+V:\Projetos\VarcalSys_System\VarcalSys_System.Util\bin\Debug\VarcalSys_System.Util.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Util\bin\Debug\VarcalSys_System.Util.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Util\obj\Debug\VarcalSys_System.Util.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Util\obj\Debug\VarcalSys_System.Util.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Util\obj\Debug\VarcalSys_System.Util.csprojResolveAssemblyReference.cache
+V:\Projetos\VarcalSys_System\VarcalSys_System.Util\bin\Debug\MySql.Data.dll

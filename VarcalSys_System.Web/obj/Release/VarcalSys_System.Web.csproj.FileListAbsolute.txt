@@ -1,0 +1,79 @@
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Web.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Web.pdb
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\Antlr3.Runtime.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\EntityFramework.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\Newtonsoft.Json.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.Formatting.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.WebRequest.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.WebHost.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Mvc.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Optimization.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Providers.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Razor.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Deployment.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Razor.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Domain.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Util.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\WebGrease.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Domain.pdb
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Util.pdb
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\EntityFramework.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\Newtonsoft.Json.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.Formatting.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.WebRequest.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.WebHost.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Mvc.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Razor.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Deployment.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Razor.xml
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\obj\Release\VarcalSys_System.Web.csprojResolveAssemblyReference.cache
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\obj\Release\VarcalSys_System.Web.dll
+c:\users\cleber\documents\visual studio 2012\Projects\VarcalSys_System\VarcalSys_System.Web\obj\Release\VarcalSys_System.Web.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Web.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Web.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Antlr3.Runtime.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\EntityFramework.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Infrastructure.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Newtonsoft.Json.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.Formatting.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.WebRequest.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.WebHost.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Mvc.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Optimization.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Providers.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Razor.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Deployment.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Razor.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Domain.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Util.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\WebGrease.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Domain.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Util.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\EntityFramework.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Newtonsoft.Json.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.Formatting.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.WebRequest.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.WebHost.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Mvc.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Razor.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Deployment.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Razor.xml
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Release\VarcalSys_System.Web.csprojResolveAssemblyReference.cache
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Release\VarcalSys_System.Web.dll
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Release\VarcalSys_System.Web.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\MySql.Data.dll
