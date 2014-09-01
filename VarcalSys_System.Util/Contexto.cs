@@ -16,7 +16,9 @@ namespace VarcalSys_System.Util
 
         public Contexto()
         {
-            _connection = new MySqlConnection("server=mysql01.varcalsys1.hospedagemdesites.ws;user id=varcalsys1;password=galleguy35;database=varcalsys1;");
+            //Em produção utilizar esse codigo
+            //_connection = new MySqlConnection("server=mysql01.varcalsys1.hospedagemdesites.ws;user id=varcalsys1;password=galleguy35;database=varcalsys1;");
+            _connection = new MySqlConnection(Settings.Default.strConnection);        
         }
 
         private readonly MySqlParameterCollection _sqlParameterCollection = new MySqlCommand().Parameters;

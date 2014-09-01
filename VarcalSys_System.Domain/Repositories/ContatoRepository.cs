@@ -68,12 +68,23 @@ namespace VarcalSys_System.Domain.Repositories
 
         public string Delete(Contato entity)
         {
-            throw new NotImplementedException();
+            var retorno = entity.Id.ToString();
+            try
+            {
+                CleanParameter();
+                ExecCommand(CommandType.Text, "Delete from tblContato where Id = " + entity.Id ).ToString();
+                return retorno;
+            }
+            catch (Exception ex)
+            {
+                
+                return ex.Message;
+            }
         }
 
         public Contato Find(int id)
         {
-            throw new NotImplementedException();
+            return FindAll().FirstOrDefault(x => x.Id == id);
         }
 
         public IEnumerable<Contato> FindAll()

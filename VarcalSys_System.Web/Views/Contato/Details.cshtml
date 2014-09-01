@@ -1,5 +1,6 @@
 ﻿@using System.Drawing
 @using System.Web.UI.WebControls
+@using VarcalSys_System.Util.HtmlExtensions
 @model VarcalSys_System.Web.Models.ContatoViewModel
 
 @{
@@ -12,7 +13,7 @@
         <h1>@ViewBag.Title</h1>
     </div>
 
-  @*  @Html.Messages(TempData["info"] as string, "info")*@
+    @Html.Messages(TempData["info"] as string, "info")
 
     <div id="breadcrumbs">
         <a href="/Home/Index" title="Home">Home</a> &raquo; Mensagens Recebidas
@@ -67,10 +68,10 @@
                                     @Html.ValidationMessageFor(x => x.Comentario)
                                 </div>
                             </div>
-                        </fieldset>@*
+                        </fieldset>
                         <div class="button-link-list">
                             @Html.LinkButton("Voltar","Index")
-                        </div>*@
+                        </div>
                     }
                 </div>
             </div>

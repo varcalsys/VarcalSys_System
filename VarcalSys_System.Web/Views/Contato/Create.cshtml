@@ -1,4 +1,5 @@
 ﻿
+@using VarcalSys_System.Util.HtmlExtensions
 @model VarcalSys_System.Web.Models.ContatoViewModel
 
 @{
@@ -11,8 +12,8 @@
         <h1>Fale Conosco</h1>
     </div>
 
-   @* @Html.Messages(TempData["info"] as string, "info")
-    @Html.Messages(TempData["errors"] as string, "errors")*@
+    @Html.Messages(TempData["info"] as string, "info")
+    @Html.Messages(TempData["errors"] as string, "errors")
 
     <div id="breadcrumbs">
         <a href="/Home/Index" title="Home">Home</a> &raquo; Fale Conosco

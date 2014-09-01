@@ -71,5 +71,19 @@ namespace VarcalSys_System.Web.Controllers
 
             return View(new ContatoViewModel(contato));
         }
+
+        public ActionResult Delete(int id)
+        {
+            var contato = _contatoService.Find(id);
+            if (contato == null)
+            {
+                TempData["errors"] = "Ocorreu um erro ao tentar excluir o contato";
+                return RedirectToAction("Index");
+            }
+
+            var retorno = _contatoService.Delete(contato);
+            TempData["info"] = "Contato excluído com sucesso";
+            return RedirectToAction("Index");
+        }
     }
 }

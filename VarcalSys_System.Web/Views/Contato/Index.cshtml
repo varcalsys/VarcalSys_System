@@ -1,4 +1,5 @@
-﻿@model IEnumerable<VarcalSys_System.Domain.Contato>
+﻿@using VarcalSys_System.Util.HtmlExtensions
+@model IEnumerable<VarcalSys_System.Domain.Contato>
 @{
     ViewBag.Title = "Mensagens";
     ViewBag.SelectedMenu = "mensagens";
@@ -22,9 +23,9 @@
         </div>*@
         
          
-       @* 
+        
         @Html.Messages(TempData["info"] as string, "info")
-        @Html.Messages(TempData["errors"] as string, "errors")*@
+        @Html.Messages(TempData["errors"] as string, "errors")
 
         <table class="table-hover table-striped">
             <thead>
