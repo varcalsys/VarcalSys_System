@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data;
@@ -12,16 +14,18 @@ namespace VarcalSys_System.Util
 {
     public class Contexto
     {
-        private readonly MySqlConnection _connection;
+        private MySqlConnection _connection;
 
-        public Contexto()
-        {
-            //Em produção utilizar esse codigo
-            //_connection = new MySqlConnection("server=mysql01.varcalsys1.hospedagemdesites.ws;user id=varcalsys1;password=galleguy35;database=varcalsys1;");
-            _connection = new MySqlConnection(Settings.Default.strConnection);        
-        }
 
         private readonly MySqlParameterCollection _sqlParameterCollection = new MySqlCommand().Parameters;
+
+        private MySqlConnection CreateConnection()
+        {
+            //Produção
+            _connection = new MySqlConnection("server=mysql01.varcalsys1.hospedagemdesites.ws;user id=varcalsys1;password=galleguy35;database=varcalsys1;");
+            //_connection = new MySqlConnection(Settings.Default.strConnection);
+            return _connection;
+        }
 
         protected void CleanParameter()
         {
@@ -35,7 +39,7 @@ namespace VarcalSys_System.Util
 
         private MySqlCommand CreateCommand(CommandType cmdType, string cmdSql)
         {
-           
+            _connection = CreateConnection();
             _connection.Open();
             var cmd = _connection.CreateCommand();
             cmd.CommandType = cmdType;

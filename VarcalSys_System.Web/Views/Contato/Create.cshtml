@@ -23,7 +23,10 @@
         <div class="columns">
             <div class="column" data-place="2">
                 <h2>Informações de Contato</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper laoreet accumsan. Sed eget elit nunc, ut eleifend urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc mollis dolor ac quam blandit quis egestas diam pharetra. Aliquam ligula felis, ornare et consectetur eu, dictum sit amet mauris. Aliquam id purus odio, sed vehicula libero.</p>
+                <p>
+                    Em caso de qualquer dúvida, reclamação ou sugestão envie-nos uma mensagem, responderemos sua mensagem com o maior prazer, este é seu local para
+                    nos ajudar a fazer nossa empresa melhor.
+                </p>
                 <div class="hr_610"></div>
                 <h2>Envie uma Mensagem</h2>
                 <!-- Start Contact Form -->
@@ -65,6 +68,7 @@
                                         <option value="suporte">Suporte</option>
                                         <option value="pagamentos">Pagamentos</option>
                                         <option value="bug">Reporte um bug</option>
+                                        <option value="outros">Outros</option>
                                     </select>   
                                     @Html.ValidationMessageFor(x => x.Assunto)                               
                                 </div> 
@@ -91,8 +95,9 @@
                 <br />
                 <h2>Sede</h2>
                 <address>
-                    <strong>Endereço:</strong> Rua Japaraiquara, 816 - São Paulo - SP<br />
-                    <strong>Telefone:</strong> 11-3804-2488<br />
+                    <strong style="color: #c9ba64">VarçalSys Soluções em Sistemas - ME</strong>
+                    <strong>Endereço:</strong> Rua Japaraiquara, 816 - São Paulo - SP<br/>
+                    @*<strong>Telefone:</strong> 11-3804-2488<br />*@
                     @*<strong>FAX:</strong> 11-38042488<br />*@
                     <strong>Email:</strong> faleconosco@varcalsys.com
                 </address>

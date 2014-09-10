@@ -42,7 +42,7 @@ namespace VarcalSys_System.Web.Controllers
             var contato = new Contato();
             contato.Nome = model.Nome;
             contato.Email = model.Email;
-            contato.Telefone = model.Telefone.Replace("(", "").Replace(")", "").Replace("-", "");
+            contato.Telefone = string.IsNullOrEmpty(contato.Telefone) ? "" : model.Telefone.Replace("(", "").Replace(")", "").Replace("-", "");           
             contato.Assunto = model.Assunto;
             contato.Comentario = model.Comentario;
 
