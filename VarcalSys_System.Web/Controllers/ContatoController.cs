@@ -39,18 +39,27 @@ namespace VarcalSys_System.Web.Controllers
                 return RedirectToAction("Create");
             }
 
-            var contato = new Contato();
-            contato.Nome = model.Nome;
-            contato.Email = model.Email;
-            contato.Telefone = string.IsNullOrEmpty(contato.Telefone) ? "" : model.Telefone.Replace("(", "").Replace(")", "").Replace("-", "");           
-            contato.Assunto = model.Assunto;
-            contato.Comentario = model.Comentario;
+            try
+            {
+                var contato = new Contato();
+                contato.Nome = model.Nome;
+                contato.Email = model.Email;
+                contato.Telefone = string.IsNullOrEmpty(contato.Telefone) ? "" : model.Telefone.Replace("(", "").Replace(")", "").Replace("-", "");
+                contato.Assunto = model.Assunto;
+                contato.Comentario = model.Comentario;
 
 
-            _contatoService.Save(contato);
+                var id = _contatoService.Save(contato);
 
-            TempData["info"] = "Mensagem enviada com sucesso";
-            return RedirectToAction("Create", "Contato");
+                TempData["info"] = "Mensagem enviada com sucesso";
+                return RedirectToAction("Create", "Contato");
+            }
+            catch (Exception)
+            {
+                TempData["errors"] = "Não foi possivel enviar sua mensagem";
+                return RedirectToAction("Create", "Contato");
+            }
+            
         }
 
         public ActionResult Details(int id)
@@ -81,7 +90,7 @@ namespace VarcalSys_System.Web.Controllers
                 return RedirectToAction("Index");
             }
 
-            var retorno = _contatoService.Delete(contato);
+            _contatoService.Delete(contato);
             TempData["info"] = "Contato excluído com sucesso";
             return RedirectToAction("Index");
         }

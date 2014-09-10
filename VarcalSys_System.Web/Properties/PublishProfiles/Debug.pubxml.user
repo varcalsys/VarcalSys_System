@@ -64,13 +64,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2014 19:29:45</publishTime>
     </File>
     <File Include="bin/VarcalSys_System.Domain.dll">
-      <publishTime>09/09/2014 21:09:30</publishTime>
+      <publishTime>09/10/2014 02:08:38</publishTime>
     </File>
     <File Include="bin/VarcalSys_System.Util.dll">
-      <publishTime>09/09/2014 21:09:29</publishTime>
+      <publishTime>09/10/2014 02:08:37</publishTime>
     </File>
     <File Include="bin/VarcalSys_System.Web.dll">
-      <publishTime>09/09/2014 21:20:21</publishTime>
+      <publishTime>09/10/2014 02:08:40</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/31/2014 19:30:06</publishTime>
@@ -1027,19 +1027,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2014 22:25:07</publishTime>
     </File>
     <File Include="Views/Contato/Create.cshtml">
-      <publishTime>09/09/2014 01:16:46</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Contato/Details.cshtml">
-      <publishTime>09/01/2014 04:53:14</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Contato/Index.cshtml">
-      <publishTime>09/01/2014 04:53:14</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>09/09/2014 01:08:51</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/09/2014 02:17:30</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Home/Photo.cshtml">
       <publishTime>08/31/2014 20:58:42</publishTime>
@@ -1054,7 +1054,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2014 19:48:19</publishTime>
     </File>
     <File Include="Views/Shared/_FeaturedBottomLine.cshtml">
-      <publishTime>09/09/2014 01:47:45</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Shared/_Footer.cshtml">
       <publishTime>08/31/2014 19:48:19</publishTime>
@@ -1066,10 +1066,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2014 19:48:20</publishTime>
     </File>
     <File Include="Views/Shared/_Nav.cshtml">
-      <publishTime>09/09/2014 02:18:38</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Shared/_Slider.cshtml">
-      <publishTime>09/09/2014 01:25:48</publishTime>
+      <publishTime>09/09/2014 21:30:54</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/31/2014 19:44:18</publishTime>
@@ -1078,7 +1078,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2014 19:44:18</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/09/2014 20:49:39</publishTime>
+      <publishTime>09/10/2014 02:08:46</publishTime>
     </File>
     <File Include="Website/.DS_Store">
       <publishTime>08/31/2014 19:46:06</publishTime>

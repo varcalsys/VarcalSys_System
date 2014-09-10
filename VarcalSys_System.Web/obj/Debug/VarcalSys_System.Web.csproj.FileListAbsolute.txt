@@ -43,7 +43,6 @@ V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Antlr3.Runtime.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\EntityFramework.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Infrastructure.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\MySql.Data.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Newtonsoft.Json.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.Formatting.dll
@@ -77,3 +76,4 @@ V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Razor.
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Debug\VarcalSys_System.Web.csprojResolveAssemblyReference.cache
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Debug\VarcalSys_System.Web.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Debug\VarcalSys_System.Web.pdb
+V:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\MySql.Data.dll

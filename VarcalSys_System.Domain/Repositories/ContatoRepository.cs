@@ -21,9 +21,8 @@ namespace VarcalSys_System.Domain.Repositories
             }
             if (entity.Id > 0)
             {
-                retorno = UpDate(entity);
+                retorno =UpDate(entity);
             }
-
             return retorno;
         }
 
@@ -37,8 +36,7 @@ namespace VarcalSys_System.Domain.Repositories
                 AddParameter("assunto",entity.Assunto);
                 AddParameter("telefone",entity.Telefone);
                 AddParameter("comentario",entity.Comentario);
-                string retorno = ExecCommand(CommandType.StoredProcedure, "uspContatoInserir").ToString();
-                return retorno;
+                return ExecCommand(CommandType.StoredProcedure, "uspContatoInserir").ToString();
             }
             catch (Exception ex)
             {
@@ -57,8 +55,8 @@ namespace VarcalSys_System.Domain.Repositories
                 AddParameter("assunto", entity.Assunto);
                 AddParameter("telefone", entity.Telefone);
                 AddParameter("comentario", entity.Comentario);
-                string retorno = ExecCommand(CommandType.StoredProcedure, "uspContatoInserir").ToString();
-                return retorno;
+                return ExecCommand(CommandType.StoredProcedure, "uspContatoInserir").ToString();
+                
             }
             catch (Exception ex)
             {
@@ -68,17 +66,16 @@ namespace VarcalSys_System.Domain.Repositories
 
         public string Delete(Contato entity)
         {
-            var retorno = entity.Id.ToString();
+            
             try
             {
                 CleanParameter();
-                ExecCommand(CommandType.Text, "Delete from tblContato where Id = " + entity.Id ).ToString();
-                return retorno;
+                return ExecCommand(CommandType.Text, "Delete from tblContato where Id = " + entity.Id).ToString();
             }
             catch (Exception ex)
             {
                 
-                return ex.Message;
+                throw new Exception(ex.Message);
             }
         }
 
@@ -110,7 +107,6 @@ namespace VarcalSys_System.Domain.Repositories
             {
                 throw new Exception(ex.Message);
             }
-            return null;
         }
     }
 }

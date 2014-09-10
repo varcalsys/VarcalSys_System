@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Diagnostics;
 using System.Linq;
@@ -8,23 +9,19 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data;
 using MySql.Data.MySqlClient;
-using VarcalSys_System.Util.Properties;
 
 namespace VarcalSys_System.Util
 {
     public class Contexto
     {
-        private MySqlConnection _connection;
 
-
+        
         private readonly MySqlParameterCollection _sqlParameterCollection = new MySqlCommand().Parameters;
 
         private MySqlConnection CreateConnection()
-        {
-            //Produção
-            _connection = new MySqlConnection("server=mysql01.varcalsys1.hospedagemdesites.ws;user id=varcalsys1;password=galleguy35;database=varcalsys1;");
-            //_connection = new MySqlConnection(Settings.Default.strConnection);
-            return _connection;
+        {           
+            var connString = ConfigurationManager.ConnectionStrings["strConnection"].ConnectionString;
+            return new MySqlConnection(connString);
         }
 
         protected void CleanParameter()
@@ -39,9 +36,9 @@ namespace VarcalSys_System.Util
 
         private MySqlCommand CreateCommand(CommandType cmdType, string cmdSql)
         {
-            _connection = CreateConnection();
-            _connection.Open();
-            var cmd = _connection.CreateCommand();
+            var connection = CreateConnection();
+            connection.Open();
+            var cmd = connection.CreateCommand();
             cmd.CommandType = cmdType;
             cmd.CommandText = cmdSql;
             cmd.CommandTimeout = 7200;
@@ -56,17 +53,13 @@ namespace VarcalSys_System.Util
         {
             try
             {
-                var cmd = CreateCommand(cmdType, cmdSql);
-                return cmd.ExecuteScalar();
+                MySqlCommand cmd = CreateCommand(cmdType, cmdSql);
+                return cmd.ExecuteScalar();            
             }
             catch (Exception ex)
             {
 
                 throw new Exception(ex.Message);
-            }
-            finally
-            {
-                _connection.Close();
             }
         }
 
@@ -84,10 +77,6 @@ namespace VarcalSys_System.Util
             {
 
                 throw new Exception(ex.Message);
-            }
-            finally
-            {
-                _connection.Close();
             }
         }
 
