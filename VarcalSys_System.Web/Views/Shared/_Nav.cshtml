@@ -6,8 +6,8 @@
             <ul class="ddsmoothmenu">
                 <li id="home"         @if (ViewBag.SelectedMenu == "home") { <text>class="current-menu-item"</text> }><a href="/Home" title="Home">Home<span class="menu_description">Página Inicial</span></a></li>
                 <li id="aEmpresa"     @if (ViewBag.SelectedMenu == "aEmpresa") {<text>class="current-menu-item"</text>}><a href="/Home/About" title="About">A Empresa<span class="menu_description">Conheça nossa Empresa</span></a></li>
-                <li id="fotos"        @if (ViewBag.SelectedMenu == "fotos") { <text>class="current-menu-item"</text> }><a href="#" title="Fotos">Fotos<span class="menu_description">Nossa Galeria </span></a></li>
-                @*<li id="portifolio"   @if (ViewBag.SelectedMenu == "portifolio") { <text>class="current-menu-item"</text> }><a href="/Home/Portifolio" title="Temas">Portifólio<span class="menu_description">Nossos Trabalhos</span></a></li>*@
+              @*<li id="fotos"        @if (ViewBag.SelectedMenu == "fotos") { <text>class="current-menu-item"</text> }><a href="#" title="Fotos">Fotos<span class="menu_description">Nossa Galeria </span></a></li>*@
+                <li id="videoaula"    @if (ViewBag.SelectedMenu == "videoaula") { <text>class="current-menu-item"</text> }><a href="/Home/VideoAula" title="">Video-Aulas<span class="menu_description">Nossos Trabalhos</span></a></li>
                 <li id="parceiros"    @if (ViewBag.SelectedMenu == "parceiros") { <text>class="current-menu-item"</text> }><a href="#" title="Parceiros">Parceiros<span class="menu_description">Nossos Parceiros</span></a></li>
                 <li id="contato"      @if (ViewBag.SelectedMenu == "contato") { <text>class="current-menu-item"</text> }><a href="/Contato/Create" title="Contato">Contato<span class="menu_description">Fale Conosco</span></a></li>
                 <li id="areaRestrita" @if (ViewBag.SelectedMenu == "areaRestrita") { <text>class="current-menu-item"</text> }><a href="#" title="Área Restrita">Área Restrita<span class="menu_description">Área Administrativa</span></a></li>              

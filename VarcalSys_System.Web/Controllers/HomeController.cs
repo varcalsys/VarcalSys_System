@@ -31,7 +31,7 @@ namespace VarcalSys_System.Web.Controllers
             return View();
         }
 
-        public ActionResult Portifolio()
+        public ActionResult VideoAula()
         {
             return View();
         }

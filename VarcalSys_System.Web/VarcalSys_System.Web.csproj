@@ -742,7 +742,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Photo.cshtml" />
-    <Content Include="Views\Home\Portifolio.cshtml" />
+    <Content Include="Views\Home\VideoAula.cshtml" />
     <Content Include="Views\Home\PortifolioSingle.cshtml" />
     <Content Include="Views\Contato\Create.cshtml" />
     <Content Include="Views\Contato\Details.cshtml" />
