@@ -26,7 +26,8 @@ namespace VarcalSys_System.Util.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;password=AM@varcal2014;database=varcalsys")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=sql216.vbma.com.br;Initial Catalog=varcalsys_system;Persist Security " +
+            "Info=True;User ID=varca_admin;Password=AM@varcal2014")]
         public string strConnection {
             get {
                 return ((string)(this["strConnection"]));

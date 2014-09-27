@@ -31,11 +31,11 @@ namespace VarcalSys_System.Domain.Repositories
             try
             {
                 CleanParameter();
-                AddParameter("nome",entity.Nome);
-                AddParameter("email", entity.Email);
-                AddParameter("assunto",entity.Assunto);
-                AddParameter("telefone",entity.Telefone);
-                AddParameter("comentario",entity.Comentario);
+                AddParameter("@Nome",entity.Nome);
+                AddParameter("@Email", entity.Email);
+                AddParameter("@Assunto",entity.Assunto);
+                AddParameter("@Telefone",entity.Telefone);
+                AddParameter("@Comentario",entity.Comentario);
                 return ExecCommand(CommandType.StoredProcedure, "uspContatoInserir").ToString();
             }
             catch (Exception ex)
@@ -49,12 +49,12 @@ namespace VarcalSys_System.Domain.Repositories
             try
             {
                 CleanParameter();
-                AddParameter("id",entity.Id);
-                AddParameter("nome", entity.Nome);
-                AddParameter("email", entity.Email);
-                AddParameter("assunto", entity.Assunto);
-                AddParameter("telefone", entity.Telefone);
-                AddParameter("comentario", entity.Comentario);
+                AddParameter("@Id",entity.Id);
+                AddParameter("@Nome", entity.Nome);
+                AddParameter("@Email", entity.Email);
+                AddParameter("@Assunto", entity.Assunto);
+                AddParameter("@Telefone", entity.Telefone);
+                AddParameter("@Comentario", entity.Comentario);
                 return ExecCommand(CommandType.StoredProcedure, "uspContatoInserir").ToString();
                 
             }
@@ -70,7 +70,7 @@ namespace VarcalSys_System.Domain.Repositories
             try
             {
                 CleanParameter();
-                return ExecCommand(CommandType.Text, "Delete from tblContato where Id = " + entity.Id).ToString();
+                return ExecCommand(CommandType.Text, "Delete from tblcontato where Id = " + entity.Id).ToString();
             }
             catch (Exception ex)
             {
@@ -88,7 +88,7 @@ namespace VarcalSys_System.Domain.Repositories
         {
             try
             {
-                var dtContato = ExecQuery(CommandType.Text, "Select * from tblcontato");
+                var dtContato = ExecQuery(CommandType.StoredProcedure, "uspContatoListarTodos");
                 var contatos = new List<Contato>();
                 foreach (DataRow row in dtContato.Rows)
                 {

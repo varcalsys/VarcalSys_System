@@ -31,21 +31,19 @@ namespace VarcalSys_System.Web.Controllers
             return View();
         }
 
-        public ActionResult VideoAula()
+        public ActionResult CSharp()
         {
             return View();
         }
 
-        public ActionResult PortifolioSingle()
+        public ActionResult AspNetMVC()
         {
             return View();
         }
 
-        public ActionResult Contato()
+        public ActionResult Cursos()
         {
             return View();
         }
-
-
     }
 }

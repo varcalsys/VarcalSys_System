@@ -40,10 +40,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\mysql-connector-net-5.1.6-noinstall\bin\MySql.Data.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -292,6 +288,7 @@
     <Content Include="images\fsb.png" />
     <Content Include="images\fsb_bull.png" />
     <Content Include="images\gallery_item_bg.jpg" />
+    <Content Include="images\google.png" />
     <Content Include="images\head_px_bot.png" />
     <Content Include="images\head_px_top.png" />
     <Content Include="images\hr_610.png" />
@@ -477,6 +474,7 @@
     <Content Include="Website\gallery\fullsize\gallery_10.jpg" />
     <Content Include="Website\gallery\fullsize\gallery_11.jpg" />
     <Content Include="Website\gallery\fullsize\gallery_12.jpg" />
+    <Content Include="Website\gallery\thumb\AspNet.jpg" />
     <Content Include="Website\gallery\thumb\folio_1_01.jpg" />
     <Content Include="Website\gallery\thumb\folio_1_02.jpg" />
     <Content Include="Website\gallery\thumb\folio_1_03.jpg" />
@@ -513,6 +511,7 @@
     <Content Include="Website\gallery\thumb\gallery_10.jpg" />
     <Content Include="Website\gallery\thumb\gallery_11.jpg" />
     <Content Include="Website\gallery\thumb\gallery_12.jpg" />
+    <Content Include="Website\gallery\thumb\videoAula.jpg" />
     <Content Include="Website\icons\16x16\add.png" />
     <Content Include="Website\icons\16x16\add_outline.png" />
     <Content Include="Website\icons\16x16\add_small.png" />
@@ -742,11 +741,12 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Photo.cshtml" />
-    <Content Include="Views\Home\VideoAula.cshtml" />
-    <Content Include="Views\Home\PortifolioSingle.cshtml" />
+    <Content Include="Views\Home\CSharp.cshtml" />
+    <Content Include="Views\Home\Cursos.cshtml" />
     <Content Include="Views\Contato\Create.cshtml" />
     <Content Include="Views\Contato\Details.cshtml" />
     <Content Include="Views\Contato\Index.cshtml" />
+    <Content Include="Views\Home\AspNetMVC.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

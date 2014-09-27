@@ -13,3 +13,10 @@ V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.
 V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.pdb
 V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\MySql.Data.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.pdb
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.pdb
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.csprojResolveAssemblyReference.cache
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.pdb

@@ -34,7 +34,7 @@ text-shadow:none;
 margin:0;
 padding:6px 18px;
 text-decoration: none;
-background:none;
+background-color:#000000;
 position:relative;
 border-bottom:1px solid #EEEEEE;
 }
@@ -45,13 +45,13 @@ display: inline-block;
 
 #menu ul.ddsmoothmenu li li a:link, #menu ul.ddsmoothmenu li li a:visited{
 color: #888888;
-background:url(../images/submenu_px.gif) top repeat-x #fff;
+background:url(/images/submenu_px.gif) top repeat-x #000;
 }
 
 #menu ul.ddsmoothmenu li li a.selected,
 #menu ul.ddsmoothmenu li li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
 color: #fff;
-background:#4E4E4F;
+background:#888888;
 }
 	
 /*1st sub level menu*/

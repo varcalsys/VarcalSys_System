@@ -19,6 +19,11 @@ namespace VarcalSys_System.Web.Controllers
         public ActionResult Index()
         {
             var contatos = _contatoService.FindAll();
+            if (!contatos.Any())
+            {
+                TempData["info"] = "Nenhuma mensagem recebida";
+            }
+
             return View(contatos);
         }
 

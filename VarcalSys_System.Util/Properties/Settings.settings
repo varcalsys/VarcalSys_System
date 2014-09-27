@@ -5,10 +5,10 @@
     <Setting Name="strConnection" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;server=localhost;user id=root;password=AM@varcal2014;database=varcalsys&lt;/ConnectionString&gt;
-  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+  &lt;ConnectionString&gt;Data Source=sql216.vbma.com.br;Initial Catalog=varcalsys_system;Persist Security Info=True;User ID=varca_admin;Password=AM@varcal2014&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">server=localhost;user id=root;password=AM@varcal2014;database=varcalsys</Value>
+      <Value Profile="(Default)">Data Source=sql216.vbma.com.br;Initial Catalog=varcalsys_system;Persist Security Info=True;User ID=varca_admin;Password=AM@varcal2014</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using MySql.Data;
-using MySql.Data.MySqlClient;
+
+
 
 namespace VarcalSys_System.Util
 {
@@ -16,12 +17,12 @@ namespace VarcalSys_System.Util
     {
 
         
-        private readonly MySqlParameterCollection _sqlParameterCollection = new MySqlCommand().Parameters;
+        private readonly SqlParameterCollection _sqlParameterCollection = new SqlCommand().Parameters;
 
-        private MySqlConnection CreateConnection()
+        private SqlConnection CreateConnection()
         {           
             var connString = ConfigurationManager.ConnectionStrings["strConnection"].ConnectionString;
-            return new MySqlConnection(connString);
+            return new SqlConnection(connString);
         }
 
         protected void CleanParameter()
@@ -34,7 +35,7 @@ namespace VarcalSys_System.Util
             _sqlParameterCollection.AddWithValue(parameterName, parameterValue);
         }
 
-        private MySqlCommand CreateCommand(CommandType cmdType, string cmdSql)
+        private SqlCommand CreateCommand(CommandType cmdType, string cmdSql)
         {
             var connection = CreateConnection();
             connection.Open();
@@ -42,9 +43,9 @@ namespace VarcalSys_System.Util
             cmd.CommandType = cmdType;
             cmd.CommandText = cmdSql;
             cmd.CommandTimeout = 7200;
-            foreach (MySqlParameter sqlParameter in _sqlParameterCollection)
+            foreach (SqlParameter sqlParameter in _sqlParameterCollection)
             {
-                cmd.Parameters.Add(new MySqlParameter(sqlParameter.ParameterName, sqlParameter.Value));
+                cmd.Parameters.Add(new SqlParameter(sqlParameter.ParameterName, sqlParameter.Value));
             }
             return cmd;
         }
@@ -53,7 +54,7 @@ namespace VarcalSys_System.Util
         {
             try
             {
-                MySqlCommand cmd = CreateCommand(cmdType, cmdSql);
+                SqlCommand cmd = CreateCommand(cmdType, cmdSql);
                 return cmd.ExecuteScalar();            
             }
             catch (Exception ex)
@@ -69,7 +70,7 @@ namespace VarcalSys_System.Util
             {
                 var cmd = CreateCommand(cmdType, cmdSql);
                 var dt = new DataTable();
-                var sqlDataAdapter = new MySqlDataAdapter(cmd);
+                var sqlDataAdapter = new SqlDataAdapter(cmd);
                 sqlDataAdapter.Fill(dt);
                 return dt;
             } 
