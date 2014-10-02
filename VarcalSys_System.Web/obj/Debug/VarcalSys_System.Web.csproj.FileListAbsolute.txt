@@ -116,4 +116,3 @@ D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.Razor.
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Debug\VarcalSys_System.Web.csprojResolveAssemblyReference.cache
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Debug\VarcalSys_System.Web.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\obj\Debug\VarcalSys_System.Web.pdb
-D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Web.dll.config

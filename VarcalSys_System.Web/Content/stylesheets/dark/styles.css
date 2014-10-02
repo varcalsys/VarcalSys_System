@@ -260,19 +260,19 @@ input[type=submit]:focus	{
 
 .mainnav_full	{
 				width:100%;
-				padding-top:5px;
+				padding-top:0;
 				/*background:url(../../images/main_nav_bg.gif) bottom repeat-x #F8F8F8;*/
-				background-color: #CB0000;
+				background-color: #000;
 				border-bottom:1px solid #fff;
 				}
 
 #MainNav		{
-				width:960px;
-				min-height:80px;
-				_height:80px;
+				width:1396px;
+				min-height:138px;
+				_height:138px;
 				position:relative;
 				z-index:1000;
-				margin:0 auto;
+				margin:0;
 				}
 				
 /* -- logo -- */
@@ -280,7 +280,7 @@ input[type=submit]:focus	{
 a.logo			{
 				width:auto;
 				height:auto;
-				margin:18px 60px 10px 0;
+				margin:0 60px 10px 0;
 				display:block;
 				outline:none;
 				float:left;
@@ -1740,7 +1740,7 @@ a:hover.back	{
 				cursor: pointer;
 				text-align: center;
 				text-decoration: none;
-				font: 14px/100% ;
+				font: 14px/100%;
 				padding: .5em 2em .55em;
 				text-shadow: 0 1px 1px rgba(0,0,0,.3);
 				-webkit-border-radius: .5em; 
