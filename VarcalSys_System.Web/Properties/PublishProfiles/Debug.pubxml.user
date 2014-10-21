@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\clebe_000\Documents\Visual Studio 2012\StartPages</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\Cleber\Documents\Visual Studio 2012\Backup Files\VarcalSys_System</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -64,13 +64,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:24:06</publishTime>
     </File>
     <File Include="bin/VarcalSys_System.Domain.dll">
-      <publishTime>09/25/2014 06:27:41</publishTime>
+      <publishTime>10/17/2014 17:51:33</publishTime>
     </File>
     <File Include="bin/VarcalSys_System.Util.dll">
-      <publishTime>09/25/2014 06:27:40</publishTime>
+      <publishTime>10/17/2014 17:51:32</publishTime>
     </File>
     <File Include="bin/VarcalSys_System.Web.dll">
-      <publishTime>09/25/2014 06:27:42</publishTime>
+      <publishTime>10/17/2014 17:53:11</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>09/21/2014 05:24:07</publishTime>
@@ -88,7 +88,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:53</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>09/25/2014 05:36:24</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="Content/stylesheets/contact.css">
       <publishTime>09/21/2014 05:23:53</publishTime>
@@ -97,13 +97,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:53</publishTime>
     </File>
     <File Include="Content/stylesheets/dark/styles.css">
-      <publishTime>09/25/2014 05:20:57</publishTime>
+      <publishTime>10/02/2014 03:01:11</publishTime>
     </File>
     <File Include="Content/stylesheets/dark/widgets.css">
       <publishTime>09/21/2014 05:23:53</publishTime>
     </File>
     <File Include="Content/stylesheets/ddsmoothmenu.css">
-      <publishTime>09/25/2014 06:01:21</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="Content/stylesheets/prettyPhoto.css">
       <publishTime>09/21/2014 05:23:53</publishTime>
@@ -285,6 +285,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Global.asax">
       <publishTime>09/21/2014 05:23:54</publishTime>
     </File>
+    <File Include="images/about1_pic.png">
+      <publishTime>10/17/2014 16:59:21</publishTime>
+    </File>
     <File Include="images/about_pic.png">
       <publishTime>09/21/2014 05:24:00</publishTime>
     </File>
@@ -325,28 +328,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:24:00</publishTime>
     </File>
     <File Include="images/carousel/carousel1.jpg">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:48:11</publishTime>
     </File>
     <File Include="images/carousel/carousel2.jpg">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:48:39</publishTime>
     </File>
     <File Include="images/carousel/carousel3.png">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:49:04</publishTime>
     </File>
     <File Include="images/carousel/carousel4.png">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:49:35</publishTime>
     </File>
     <File Include="images/carousel/carousel5.jpg">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:50:05</publishTime>
     </File>
     <File Include="images/carousel/carousel6.jpg">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:52:32</publishTime>
     </File>
     <File Include="images/carousel/carousel7.jpg">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:53:04</publishTime>
     </File>
     <File Include="images/carousel/carousel8.png">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 15:53:22</publishTime>
     </File>
     <File Include="images/carousel/Thumbs.db">
       <publishTime>09/21/2014 05:24:00</publishTime>
@@ -478,7 +481,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:24:00</publishTime>
     </File>
     <File Include="images/facebook.png">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 17:44:33</publishTime>
     </File>
     <File Include="images/favicon.ico">
       <publishTime>09/21/2014 05:24:00</publishTime>
@@ -510,6 +513,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/gallery_item_bg.jpg">
       <publishTime>09/21/2014 05:24:00</publishTime>
     </File>
+    <File Include="images/google.png">
+      <publishTime>10/17/2014 17:44:32</publishTime>
+    </File>
     <File Include="images/head_px_bot.png">
       <publishTime>09/21/2014 05:24:00</publishTime>
     </File>
@@ -520,7 +526,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:24:00</publishTime>
     </File>
     <File Include="images/hr_610_dark.png">
-      <publishTime>09/21/2014 05:24:00</publishTime>
+      <publishTime>10/17/2014 17:08:15</publishTime>
     </File>
     <File Include="images/hr_940.png">
       <publishTime>09/21/2014 05:24:00</publishTime>
@@ -638,6 +644,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="images/logo.png">
       <publishTime>09/21/2014 05:24:00</publishTime>
+    </File>
+    <File Include="images/logoteste1.jpg">
+      <publishTime>10/02/2014 03:01:11</publishTime>
     </File>
     <File Include="images/maconaria_icon.png">
       <publishTime>09/21/2014 05:24:00</publishTime>
@@ -925,7 +934,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:24:01</publishTime>
     </File>
     <File Include="images/team_thumb1.jpg">
-      <publishTime>09/23/2014 22:33:47</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="images/Thumbs.db">
       <publishTime>09/21/2014 05:23:59</publishTime>
@@ -1027,28 +1036,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:54</publishTime>
     </File>
     <File Include="Views/Contato/Create.cshtml">
-      <publishTime>09/21/2014 05:23:55</publishTime>
+      <publishTime>10/02/2014 03:01:11</publishTime>
     </File>
     <File Include="Views/Contato/Details.cshtml">
-      <publishTime>09/21/2014 05:23:55</publishTime>
+      <publishTime>10/02/2014 03:01:11</publishTime>
     </File>
     <File Include="Views/Contato/Index.cshtml">
       <publishTime>09/21/2014 05:23:55</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>09/25/2014 06:22:50</publishTime>
+      <publishTime>10/17/2014 17:48:48</publishTime>
     </File>
     <File Include="Views/Home/AspNetMVC.cshtml">
-      <publishTime>09/25/2014 04:30:20</publishTime>
+      <publishTime>10/17/2014 15:05:20</publishTime>
     </File>
     <File Include="Views/Home/CSharp.cshtml">
-      <publishTime>09/25/2014 04:30:16</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="Views/Home/Cursos.cshtml">
-      <publishTime>09/25/2014 06:21:04</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/22/2014 20:52:36</publishTime>
+      <publishTime>10/02/2014 03:01:11</publishTime>
     </File>
     <File Include="Views/Home/Photo.cshtml">
       <publishTime>09/21/2014 05:23:55</publishTime>
@@ -1066,10 +1075,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:55</publishTime>
     </File>
     <File Include="Views/Shared/_FeaturedBottomLine.cshtml">
-      <publishTime>09/21/2014 05:23:55</publishTime>
+      <publishTime>10/17/2014 16:24:49</publishTime>
     </File>
     <File Include="Views/Shared/_Footer.cshtml">
-      <publishTime>09/21/2014 05:25:54</publishTime>
+      <publishTime>10/02/2014 03:01:11</publishTime>
     </File>
     <File Include="Views/Shared/_Header.cshtml">
       <publishTime>09/21/2014 05:23:55</publishTime>
@@ -1078,7 +1087,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:55</publishTime>
     </File>
     <File Include="Views/Shared/_Nav.cshtml">
-      <publishTime>09/25/2014 05:32:18</publishTime>
+      <publishTime>10/02/2014 03:01:11</publishTime>
     </File>
     <File Include="Views/Shared/_Slider.cshtml">
       <publishTime>09/21/2014 05:25:54</publishTime>
@@ -1090,7 +1099,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:55</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/25/2014 06:27:46</publishTime>
+      <publishTime>10/17/2014 17:51:42</publishTime>
     </File>
     <File Include="Website/.DS_Store">
       <publishTime>09/21/2014 05:23:55</publishTime>
@@ -1183,13 +1192,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:55</publishTime>
     </File>
     <File Include="Website/gallery/thumb/AspNet.jpg">
-      <publishTime>09/25/2014 04:08:15</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="Website/gallery/thumb/folio_1_01.jpg">
-      <publishTime>09/25/2014 03:41:40</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="Website/gallery/thumb/folio_1_02.jpg">
-      <publishTime>09/25/2014 03:49:25</publishTime>
+      <publishTime>09/27/2014 06:30:32</publishTime>
     </File>
     <File Include="Website/gallery/thumb/folio_1_03.jpg">
       <publishTime>09/21/2014 05:23:55</publishTime>
@@ -1813,7 +1822,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2014 05:23:58</publishTime>
     </File>
     <File Include="Website/stylesheets/dark/styles.css">
-      <publishTime>09/21/2014 05:23:58</publishTime>
+      <publishTime>10/17/2014 17:12:16</publishTime>
     </File>
     <File Include="Website/stylesheets/dark/widgets.css">
       <publishTime>09/21/2014 05:23:58</publishTime>

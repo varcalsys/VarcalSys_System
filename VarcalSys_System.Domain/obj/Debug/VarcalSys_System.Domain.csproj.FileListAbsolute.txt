@@ -16,7 +16,9 @@ V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\MySql.Data.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Domain.pdb
 D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\System.Web.Mvc.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\VarcalSys_System.Util.pdb
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Debug\System.Web.Mvc.xml
 D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.csprojResolveAssemblyReference.cache
 D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Debug\VarcalSys_System.Domain.pdb

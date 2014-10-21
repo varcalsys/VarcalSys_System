@@ -85,10 +85,7 @@ D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Infrastructu
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Newtonsoft.Json.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.dll
-D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.Formatting.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.WebRequest.dll
-D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.dll
-D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.WebHost.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Mvc.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Optimization.dll
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Providers.dll
@@ -104,10 +101,7 @@ D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\VarcalSys_System.Util.pdb
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\EntityFramework.xml
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\Newtonsoft.Json.xml
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.xml
-D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.Formatting.xml
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Net.Http.WebRequest.xml
-D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.xml
-D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Http.WebHost.xml
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Mvc.xml
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.Razor.xml
 D:\Projetos\VarcalSys_System\VarcalSys_System.Web\bin\System.Web.WebPages.xml

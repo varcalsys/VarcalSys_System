@@ -21,12 +21,12 @@ namespace VarcalSys_System.Web.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Sobre()
         {
             return View();
         }
 
-        public ActionResult Photo()
+        public ActionResult Portifolio()
         {
             return View();
         }

@@ -13,3 +13,12 @@ V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Release\VarcalSys_Syste
 V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Release\VarcalSys_System.Domain.dll
 V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Release\VarcalSys_System.Domain.pdb
 V:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Release\MySql.Data.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Release\VarcalSys_System.Domain.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Release\VarcalSys_System.Domain.pdb
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Release\VarcalSys_System.Util.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Release\System.Web.Mvc.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Release\VarcalSys_System.Util.pdb
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\bin\Release\System.Web.Mvc.xml
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Release\VarcalSys_System.Domain.csprojResolveAssemblyReference.cache
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Release\VarcalSys_System.Domain.dll
+D:\Projetos\VarcalSys_System\VarcalSys_System.Domain\obj\Release\VarcalSys_System.Domain.pdb

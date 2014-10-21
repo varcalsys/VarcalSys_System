@@ -60,7 +60,7 @@ Author URI: http://themeforest.net/user/MixerTheme
 html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, pre,
 dd, dl, dt, a, cite, code, img, tt, legend, fieldset, label {margin: 0; padding: 0; text-align:left;}
 
-img, a img, form, fieldset {border: 0; margin-top: -10px;}
+img, a img, form, fieldset {border: 0;}
 
 html, body 		{height: 100%;}
 
@@ -277,19 +277,23 @@ input[type=submit]:focus	{
 				
 /* -- logo -- */
 
+.logo {
+   
+}
+
 a.logo			{
-				width:auto;
-				height:auto;
-				margin:26px 50px 0 20px;
+                width: 307px;
+				height:100px;
+				margin:16px 50px 0 20px;
 				display:block;
 				outline:none;
 				float:left;
 				font:bold 2em/1em "Arial Narrow", Arial, Helvetica, sans-serif;
-				color:#2b2b2b;
+				color:#2b2b2b;         
 				text-decoration:none;
 				}
 				
-a:hover.logo	{
+a:hover.logo 	{
 				color:#5b5b5b;
 				text-decoration:none;
 				}
@@ -573,7 +577,6 @@ a:hover.logo	{
 #footer .social a	{
 				width:42px;
 				height:42px;
-				overflow:hidden;
 				display:block;
 				float:left;
 				}
@@ -1412,6 +1415,14 @@ a:hover.comment-reply-link	{
 				margin:2.944em 0;
 				background:url(/images/hr_610_dark.png) 0 0 no-repeat;
 				}
+
+.hr_940	{
+				width:610px;
+				height:2px;
+				overflow:hidden;
+				margin:2.944em 0;
+				background:url(/images/hr_940_dark.png) 0 0 no-repeat;
+				}
 				
 .bottom			{margin-bottom:25px;}
 				
@@ -1497,7 +1508,7 @@ span.highlight_02 {background:#79a94b; color:#fff;}
 				min-height:57px;
 				_height:57px;
 				padding-top:5px;
-				padding-bottom:15px;
+				padding-bottom:15px;                
 				position:relative;
 				}
 				

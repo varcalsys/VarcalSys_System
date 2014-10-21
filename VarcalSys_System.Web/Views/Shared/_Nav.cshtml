@@ -1,23 +1,26 @@
 ﻿@using System.Net.Mime
 <div id="MainNav">
+ 
     <a href="/Home/Index" class="logo">
         <img src="/images/logo1.png" width="307" height="100" alt="" /></a>
-            <div id="menu">
-            <ul class="ddsmoothmenu">
-                <li id="home"         @if (ViewBag.SelectedMenu == "home") { <text>class="current-menu-item"</text> }><a href="/Home" title="Home">Home<span class="menu_description">Página Inicial</span></a></li>
-                <li id="aEmpresa"     @if (ViewBag.SelectedMenu == "aEmpresa") {<text>class="current-menu-item"</text>}><a href="/Home/About" title="A Empresa">A Empresa<span class="menu_description">Conheça nossa Empresa</span></a></li>
-                <li id="cursos"       @if (ViewBag.SelectedMenu == "cursos") { <text>class="current-menu-item"</text> }><a href="/Home/Cursos" title="Cursos">Cursos<span class="menu_description">Nossos Cursos</span></a>                   
-                    <ul class="ddsmoothmenu">
-						<li id="csharp" class="current-menu-item"><a href="/Home/CSharp" title="CSharp">C#</a></li>
-						<li id="aspNet" class="current-menu-item"><a href="/Home/AspNetMVC" title="AspNetMVC">Asp Net Mvc</a></li>						
-					</ul>
-                </li>               
-                <li id="parceiros"    @if (ViewBag.SelectedMenu == "parceiros") { <text>class="current-menu-item"</text> }><a href="#" title="Parceiros">Parceiros<span class="menu_description">Nossos Parceiros</span></a></li>
-                <li id="contato"      @if (ViewBag.SelectedMenu == "contato") { <text>class="current-menu-item"</text> }><a href="/Contato/Create" title="Contato">Contato<span class="menu_description">Fale Conosco</span></a></li>
-                <li id="areaRestrita" @if (ViewBag.SelectedMenu == "areaRestrita") { <text>class="current-menu-item"</text> }><a href="#" title="Área Restrita">Área Restrita<span class="menu_description">Área Administrativa</span></a></li>              
-            </ul>
-           @* <span class="username" style="margin-left: 80px;">Acessando como </span><img style="width: 50px; height: 50px;"src="/Images/avatar.gif" width="50" height="50" title="@User.Identity.Name"/>*@
-        </div>
+    <div id="menu">
+        <ul class="ddsmoothmenu">
+            <li id="home"         @if (ViewBag.SelectedMenu == "home") { <text>class="current-menu-item"</text> }><a href="/Home" title="Home">Home<span class="menu_description">Página Inicial</span></a></li>
+            <li id="aEmpresa"     @if (ViewBag.SelectedMenu == "aEmpresa") {<text>class="current-menu-item"</text>}><a href="/Home/Sobre" title="A Empresa">A Empresa<span class="menu_description">Conheça nossa Empresa</span></a></li>
+            <li id="cursos"       @if (ViewBag.SelectedMenu == "cursos") { <text>class="current-menu-item"</text> }><a href="/Home/Cursos" title="Cursos">Cursos<span class="menu_description">Nossos Cursos</span></a>                   
+                <ul class="ddsmoothmenu">
+                    <li id="csharp" class="current-menu-item"><a href="/Home/CSharp" title="CSharp">C#</a></li>
+                    <li id="aspNet" class="current-menu-item"><a href="/Home/AspNetMVC" title="AspNetMVC">Asp Net Mvc</a></li>						
+                </ul>
+            </li>        
+            <li id="servicos" @if (ViewBag.SelectedMenu == "servicos") { <text>class="current-menu-item"</text> }><a href="#" title="Serviços">Serviços<span class="menu_description">Nossos Serviços</span></a></li>       
+            @*<li id="parceiros"    @if (ViewBag.SelectedMenu == "parceiros") { <text>class="current-menu-item"</text> }><a href="#" title="Parceiros">Parceiros<span class="menu_description">Nossos Parceiros</span></a></li>*@
+            <li id="portifolio" @if (ViewBag.SelectedMenu == "portifolio") { <text>class="current-menu-item"</text> }><a href="#" title="Portifolio">Portifólio<span class="menu_description">Nosso Portifólio</span></a></li>  
+            <li id="contato"      @if (ViewBag.SelectedMenu == "contato") { <text>class="current-menu-item"</text> }><a href="/Contato/Create" title="Contato">Contato<span class="menu_description">Fale Conosco</span></a></li>
+                        
+        </ul>
+        @* <span class="username" style="margin-left: 80px;">Acessando como </span><img style="width: 50px; height: 50px;"src="/Images/avatar.gif" width="50" height="50" title="@User.Identity.Name"/>*@
+    </div>
     <div class="clear"></div>
 </div>
 
