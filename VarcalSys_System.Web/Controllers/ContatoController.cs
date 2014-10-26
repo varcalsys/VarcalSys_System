@@ -53,6 +53,10 @@ namespace VarcalSys_System.Web.Controllers
                 contato.Assunto = model.Assunto;
                 contato.Comentario = model.Comentario;
 
+                var email = new SendMail();
+                email.EnviarEmail(contato);
+                email.EnviaEmailResponsavel(contato);
+
 
                 var id = _contatoService.Save(contato);
 
